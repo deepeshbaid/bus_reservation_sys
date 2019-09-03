@@ -1,0 +1,7 @@
+
+create database project;
+use project;
+
+create table bus_info(bus_id varchar(10) primary key,bus_type varchar(20),source varchar(20),destination varchar(20),seats int,departure_time varchar(10),arrival_time varchar(10),base_fare float(9,2)); 
+
+create table booking(ordercode int, date date,cust_name varchar(30),tot_seat int,adult_seat int,infant_seat int,sencit_seat int,total_fare float(9,2)); 
